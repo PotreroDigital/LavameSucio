@@ -28,23 +28,36 @@
 										<p>Queremos simplificarte tu día</p>
 										<h2>Registrate</h2>
 										<form method="post" action="#">
-							        <div class="rowuniform">
-							          <div class="small">
-							            <input type="text" name="query" id="query" value="" placeholder="Nombre" />
-													<input type="text" name="query" id="query" value="" placeholder="Apellido" />
-													<input type="text" name="query" id="query" value="" placeholder="Correo electrónico" />
-							          </div>
-												<!--Fijarse en el inicio de Facebook para copiar el formato de formulario-->
-												<div id="fullname" class="" 
-											  </div>
-												<!--Parte reservada para darle forma al formulario-->
-							        </div>
-							      </form>
+											<div class="row uniform">
+												<div class="6u 12u$(small)">
+													<input type="text" name="name" id="name" value="" placeholder="Nombre" />
+												</div>
+												<div class="6u 12u$(small)">
+													<input type="text" name="name" id="name" value="" placeholder="Apellido" />
+												</div>
+												<div class="12u$">
+													<input type="email" name="email" id="email" value="" placeholder="Email" />
+												</div>
+												<div class="4u 12u$(small)">
+													<input type="radio" id="priority-low" name="priority" checked>
+													<label for="priority-low">Hombre</label>
+												</div>
+												<div class="4u 12u$(small)">
+													<input type="radio" id="priority-normal" name="priority">
+													<label for="priority-normal">Mujer</label>
+												</div>
+												<div class="4u$ 12u$(small)">
+													<input type="radio" id="priority-high" name="priority">
+													<label for="priority-high">Otro</label>
+												</div>
+												<div class="12u$">
+													<ul class="actions">
+														<li><input type="submit" value="Registrarse" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
 									</header>
-									<p> </p>
-									<footer class="align-center">
-										<a href="#" class="button alt">Registrarse</a>
-									</footer>
 								</div>
 							</div>
 						</div>
@@ -59,18 +72,24 @@
 										<p>Nuestros diferentes servicios</p>
 										<h2>Iniciar Sesión</h2>
 										<form method="post" action="#">
-							        <div class="rowuniform">
-							          <div class="small">
-							            <input type="text" name="query" id="query" value="" placeholder="Correo electrónico" />
-													<input type="text" name="query" id="query" value="" placeholder="Contraseña" />
-							          </div>
-							        </div>
-							      </form>
-									</header>
-									<p> </p>
-									<footer class="align-center">
-										<a href="#" class="button alt">Iniciar Sesión</a>
-									</footer>
+											<div class="row uniform">
+												<div class="12u$">
+													<input type="text" name="name" id="name" value="" placeholder="Nombre de usuario o número de teléfono" />
+												</div>
+												<div class="12u$">
+													<input type="email" name="email" id="email" value="" placeholder="Contraseña" />
+												</div>
+												<div class="12u$">
+													<input type="radio" id="priority-high" name="priority">
+													¿Olvidaste tu contraseña?,haz <a href="linkear">click aquí. </a>
+												</div>
+												<div class="12u$">
+													<ul class="actions">
+														<li><input type="submit" value="Iniciar Sesión" /></li>
+													</ul>
+												</div>
+										 </form>
+									 </header>
 								</div>
 							</div>
 						</div>
