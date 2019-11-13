@@ -3033,8 +3033,8 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #8a4680;
-				border-color: #8a4680;
+				background-color: #0051ff;
+				border-color: #000000;
 				color: #ffffff;
 			}
 
@@ -3111,7 +3111,7 @@
 			}
 
 			.wrapper.style3 a {
-				color: #8a4680;
+				color: #ffffff;
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
