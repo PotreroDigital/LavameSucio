@@ -2894,7 +2894,7 @@
 			}
 
 			.wrapper.style2 a {
-				color: #8a4680;
+				color: #3055ff;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3029,7 +3029,7 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #0051ff;
+				background-color: #3055ff;
 				border-color: #000000;
 				color: #ffffff;
 			}
